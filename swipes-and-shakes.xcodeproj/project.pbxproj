@@ -12,6 +12,13 @@
 		1B053A8E1C5B294E00DD9CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B053A8C1C5B294E00DD9CDE /* Main.storyboard */; };
 		1B053A901C5B294E00DD9CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B053A8F1C5B294E00DD9CDE /* Assets.xcassets */; };
 		1B053A931C5B294E00DD9CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B053A911C5B294E00DD9CDE /* LaunchScreen.storyboard */; };
+		1BC2C8DD1C5D54CC00470612 /* coffeemug1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8D51C5D54CC00470612 /* coffeemug1.mp3 */; };
+		1BC2C8DF1C5D54CC00470612 /* coffeemug2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8D71C5D54CC00470612 /* coffeemug2.mp3 */; };
+		1BC2C8E01C5D54CC00470612 /* coffeetable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8D81C5D54CC00470612 /* coffeetable.mp3 */; };
+		1BC2C8E11C5D54CC00470612 /* instantcoffee1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8D91C5D54CC00470612 /* instantcoffee1.mp3 */; };
+		1BC2C8E21C5D54CC00470612 /* instantcoffee2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8DA1C5D54CC00470612 /* instantcoffee2.mp3 */; };
+		1BC2C8E31C5D54CC00470612 /* pouringcoffee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8DB1C5D54CC00470612 /* pouringcoffee.mp3 */; };
+		1BC2C8E41C5D54CC00470612 /* teaspoon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2C8DC1C5D54CC00470612 /* teaspoon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		1B053A8F1C5B294E00DD9CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B053A921C5B294E00DD9CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B053A941C5B294E00DD9CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC2C8D51C5D54CC00470612 /* coffeemug1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coffeemug1.mp3; sourceTree = "<group>"; };
+		1BC2C8D71C5D54CC00470612 /* coffeemug2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coffeemug2.mp3; sourceTree = "<group>"; };
+		1BC2C8D81C5D54CC00470612 /* coffeetable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coffeetable.mp3; sourceTree = "<group>"; };
+		1BC2C8D91C5D54CC00470612 /* instantcoffee1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = instantcoffee1.mp3; sourceTree = "<group>"; };
+		1BC2C8DA1C5D54CC00470612 /* instantcoffee2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = instantcoffee2.mp3; sourceTree = "<group>"; };
+		1BC2C8DB1C5D54CC00470612 /* pouringcoffee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pouringcoffee.mp3; sourceTree = "<group>"; };
+		1BC2C8DC1C5D54CC00470612 /* teaspoon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teaspoon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +71,26 @@
 				1B053A881C5B294E00DD9CDE /* AppDelegate.swift */,
 				1B053A8A1C5B294E00DD9CDE /* ViewController.swift */,
 				1B053A8C1C5B294E00DD9CDE /* Main.storyboard */,
+				1BC2C8D41C5D545D00470612 /* sounds */,
 				1B053A8F1C5B294E00DD9CDE /* Assets.xcassets */,
 				1B053A911C5B294E00DD9CDE /* LaunchScreen.storyboard */,
 				1B053A941C5B294E00DD9CDE /* Info.plist */,
 			);
 			path = "swipes-and-shakes";
+			sourceTree = "<group>";
+		};
+		1BC2C8D41C5D545D00470612 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2C8D51C5D54CC00470612 /* coffeemug1.mp3 */,
+				1BC2C8D71C5D54CC00470612 /* coffeemug2.mp3 */,
+				1BC2C8D81C5D54CC00470612 /* coffeetable.mp3 */,
+				1BC2C8D91C5D54CC00470612 /* instantcoffee1.mp3 */,
+				1BC2C8DA1C5D54CC00470612 /* instantcoffee2.mp3 */,
+				1BC2C8DB1C5D54CC00470612 /* pouringcoffee.mp3 */,
+				1BC2C8DC1C5D54CC00470612 /* teaspoon.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B053A931C5B294E00DD9CDE /* LaunchScreen.storyboard in Resources */,
+				1BC2C8E01C5D54CC00470612 /* coffeetable.mp3 in Resources */,
+				1BC2C8E11C5D54CC00470612 /* instantcoffee1.mp3 in Resources */,
+				1BC2C8E21C5D54CC00470612 /* instantcoffee2.mp3 in Resources */,
+				1BC2C8E41C5D54CC00470612 /* teaspoon.mp3 in Resources */,
 				1B053A901C5B294E00DD9CDE /* Assets.xcassets in Resources */,
+				1BC2C8E31C5D54CC00470612 /* pouringcoffee.mp3 in Resources */,
+				1BC2C8DD1C5D54CC00470612 /* coffeemug1.mp3 in Resources */,
+				1BC2C8DF1C5D54CC00470612 /* coffeemug2.mp3 in Resources */,
 				1B053A8E1C5B294E00DD9CDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +322,7 @@
 				1B053A991C5B294E00DD9CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
